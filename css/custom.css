@@ -1,0 +1,50 @@
+
+#special img:hover{
+
+  transform: scale(1.5);
+}
+
+  .active {
+      color: #B1C9B3 !important;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .cover {
+
+      margin-left: 250px;
+    }
+ 
+   }
+
+   @media only screen and (min-width: 1500px) {
+    .cover {
+
+      margin-left: 650px;
+    }
+ 
+   }
+
+
+
+@media only screen and (min-width: 1000px) {
+    #special, #unique{display: flex;
+       flex-direction: row;
+      
+   }
+   .carousel-item {
+       width: 70%;
+     margin-left: 250px;
+   
+   }
+   .carousel-caption {
+   font-size: x-large;
+   margin-bottom: 900px;
+       
+   }
+   }
+   @media only screen and (min-width: 1000px) {
+    #different{ width: 100%;
+       
+   }
+ 
+   }
