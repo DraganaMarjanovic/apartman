@@ -14,30 +14,21 @@
 
 <body>
 
-<nav>
-
-    <div class="navbar navbar-light bg-light"> 
-         <a class="navbar-brand"  href="index.php">
-          <img src="./image/logo.png" class="img-fluid" height="150" width="150" alt="logo">
+ <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+            <div class="container">
+            <a href="index.php">
+          <img src="./image/logo1.png" class="img-fluid" height="60" width="60" alt="logo">
         </a>
-
-      <ul class="nav"> 
-
-         <li class="nav-item ">
-          <a class="nav-link  m-3 text-success  <?php if($page == 'index'){echo 'active';} ?>" href="index.php">POČETNA</a>
-         </li> 
-        <li class="nav-item ">
-          <a class="nav-link m-3 text-success <?php if($page == 'smeštaj'){echo 'active';} ?>"href="apartman.php">SMEŠTAJ</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link m-3 text-success <?php if($page == 'posetiti'){echo 'active';} ?> " href="see.php">POSETITI</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link m-3 text-success <?php if($page == 'kontakt'){echo 'active';} ?>" href="contact.php">KONTAKT</a>
-        </li>
-      </ul>
-     </div> 
-  
-
-
-</nav>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="n_bar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link text-success <?php if($page == 'index'){echo 'active';} ?>" href="index.php">POČETNA</a></li>
+                        <li class="nav-item"><a class="nav-link text-success <?php if($page == 'smeštaj'){echo 'active';} ?>" href="apartman.php">SMEŠTAJ</a></li>
+                        <li class="nav-item"><a class="nav-link text-success  <?php if($page == 'posetiti'){echo 'active';} ?>" href="see.php">POSETITI</a></li>
+                        <li class="nav-item"><a class="nav-link text-success <?php if($page == 'kontakt'){echo 'active';} ?>" href="contact.php">KONTAKT</a></li>
+                     </ul>
+                </div>
+            </div>
+ </nav>

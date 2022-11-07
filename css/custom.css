@@ -1,9 +1,4 @@
 
-#special img:hover{
-
-  transform: scale(1.5);
-}
-
   .active {
       color: #B1C9B3 !important;
   }
@@ -48,3 +43,4 @@
    }
  
    }
+

@@ -16,7 +16,7 @@ include 'nav.php';
   </div>
 
 
-  <div class="row m-2 " i>
+  <div class="row m-2 " >
     <div class="col m-2" id="unique">
       <img src="./image/vrt.jpg" width="530px" height="500px" alt="vrt">
       <h4 class="text-light p-3">Objekat se nalazi nedaleko od parka Čair i Kliničkog Centra na uzvišenju iznad Niške pivare i Sv.Nikolske crkve. Lokalna autobuska stanica je od objekta udaljena oko 100m.</h4>
@@ -36,4 +36,4 @@ include 'nav.php';
 
 <?php
 include 'foot.php';
-?> -->
+?> 
